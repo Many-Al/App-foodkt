@@ -27,7 +27,7 @@ class ShoppingCart {
     fun calculateTotalAmount(): Double {
         return items.sumOf { it.price }
     }
-
+//
     fun getProductAtIndex(index: Int): ProductItem {
         return items[index]
     }
